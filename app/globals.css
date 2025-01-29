@@ -39,7 +39,7 @@ body {
   padding: 0;
   height: 100%;
   font-family: 'DefaultFont';
-  line-height: 2;
+  line-height: 1.5;
 }
 
 a {
@@ -84,6 +84,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav ul {
@@ -93,11 +94,11 @@ nav ul {
 
 nav li {
   list-style: none;
-  margin: 0 .5rem;
+  margin: 0 1rem;
 }
 
 nav li a {
-  color: var(--gold);
+  color: white;
   transition: .2s ease-in-out;
   font-size: 1.25rem;
 }
@@ -119,12 +120,81 @@ nav h1:hover {
   color: var(--gold);
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -6rem;
+}
+
+#top-left-text > * {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+
+
+
+.transition {
+  transition: .333s ease-in-out;
+}
+
+#homepage-pricing-button {
+  font-family: 'DefaultFont';
+  border-radius: 4rem;
+  color: var(--bg-color);
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: .5rem auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 0px var(--yellow);
+}
+
+.button-appearance {
+  background: linear-gradient(to right,var(--gold),var(--yellow));
+  border: 1px solid var(--gold);
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+}
+
+#homepage-pricing-button:hover {
+  font-size: 2.45rem;
+  border-radius: 4rem;
+  box-shadow: 0px 0px 8px 0px var(--yellow);
+}
+
+
+
+.white-border-round {
+  border: 1px solid white;
+  border-radius: 25%;
+}
+
+
+
+
+#title-1 {
+  margin-top: -2.5rem;
+  text-align: center;
+}
+
+
+.social-media-container > * {
+  margin: 0 .5rem;
+}
+
 
 .main-column {
   margin: 0 28rem;
 }
-
-
 
 /* mobile */
 @media only screen and (max-width: 1400px){

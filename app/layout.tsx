@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Stevie's Details LLC",
-  description: "Premium automotive details servicing Orange County, California",
+  description: "Premium automotive details servicing Orange County, California!",
 };
 
 export default function RootLayout({
@@ -20,11 +20,13 @@ export default function RootLayout({
 
           <header>
             <nav>
-              <h1><Link href="/">Stevie's Details LLC</Link></h1>
-              <ul>
-                <li><Link href="/about">About</Link></li>
-                <li><Link href="/pricing">Pricing</Link></li>
-              </ul>
+                <h1 id="top-left-text"><Link href="/">Stevie's Details LLC</Link></h1>
+                <div>
+                  <ul>
+                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/pricing">Pricing</Link></li>
+                  </ul>
+                </div>
             </nav>
           </header>
 
