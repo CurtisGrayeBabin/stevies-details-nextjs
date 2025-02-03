@@ -42,12 +42,12 @@ body {
   line-height: 1.5;
 }
 
-a {
-  color: var(--gold)
-}
-
 h1, h2 {
   color: var(--gold);
+}
+
+h1 {
+  text-decoration: underline;
 }
 
 #__next { 
@@ -89,7 +89,6 @@ nav {
 
 nav ul {
   display: flex;
-
 }
 
 nav li {
@@ -97,14 +96,14 @@ nav li {
   margin: 0 1rem;
 }
 
-nav li a {
-  color: white;
+a {
+  color: var(--text-color);
   transition: .2s ease-in-out;
   font-size: 1.25rem;
 }
 
-nav li a:hover {
-  color: var(--text-color);
+a:hover {
+  color: var(--gold);
 }
 
 
@@ -129,7 +128,7 @@ nav h1:hover {
 }
 
 #top-left-text > * {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   margin-left: 1rem;
 }
@@ -179,8 +178,6 @@ nav h1:hover {
 }
 
 
-
-
 #title-1 {
   margin-top: -2.5rem;
   text-align: center;
@@ -189,6 +186,11 @@ nav h1:hover {
 
 .social-media-container > * {
   margin: 0 .5rem;
+}
+
+
+.pricing-container > * {
+  padding: .5rem 0;
 }
 
 

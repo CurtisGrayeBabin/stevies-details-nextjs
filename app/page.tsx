@@ -21,24 +21,24 @@ export default function Home() {
             <a href="https://www.yelp.com/biz/stevie-s-details-santa-ana-3" target="_">
               <Image
                 src="/yelp.png"
-                width={80}
-                height={80}
+                width={70}
+                height={70}
                 alt="Opens our Yelp page in a new window"
               />
             </a>
             <a href="https://www.instagram.com/stevies_details/" target="_">
               <Image
                   src="/ig.svg.png"
-                  width={80}
-                  height={80}
+                  width={70}
+                  height={70}
                   alt="Opens our Instagram page in a new window"
                 />
             </a>
             <a href="https://www.tiktok.com/@stevies_details" target="_">
             <Image
                 src="/tiktok.png"
-                width={80}
-                height={80}
+                width={70}
+                height={70}
                 className="white-border-round"
                 alt="Opens our TikTok page in a new window"
               />
