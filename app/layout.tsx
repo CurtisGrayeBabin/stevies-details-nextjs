@@ -25,6 +25,7 @@ export default function RootLayout({
                   <ul>
                     <li><Link href="/about">About</Link></li>
                     <li><Link href="/pricing">Pricing</Link></li>
+                    <li><a href="https://www.yelp.com/biz/stevie-s-details-santa-ana-3#reviews" target="_">Reviews</a></li>
                   </ul>
                 </div>
             </nav>
