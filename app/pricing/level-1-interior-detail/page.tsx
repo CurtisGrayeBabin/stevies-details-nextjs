@@ -2,9 +2,9 @@
 import React from 'react';
 import usePriceData from "@/hooks/usePriceData";
 
-export default function MaintenancePage() {
+export default function Level1InteriorPage() {
 
-  const data = usePriceData("/price-data/maintenance-detail.json");
+  const data = usePriceData("/price-data/level-1-interior-detail.json");
 
   return (
     <main>

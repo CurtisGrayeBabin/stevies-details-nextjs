@@ -42,13 +42,11 @@ body {
   line-height: 1.75;
 }
 
-h1, h2 {
+h1 {
   color: var(--gold);
 }
 
-h1 {
-  text-decoration: underline;
-}
+
 
 #__next { 
   display: flex;
@@ -123,7 +121,7 @@ nav h1:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: -6rem;
+  margin-top: -4rem;
 }
 
 #top-left-text > * {
@@ -201,7 +199,7 @@ nav h1:hover {
 
 
 #title-1 {
-  margin-top: -2.5rem;
+  margin-top: -4rem;
   text-align: center;
 }
 
@@ -219,6 +217,35 @@ nav h1:hover {
 .main-column {
   margin: 0 28rem;
 }
+
+
+.pricing-table {
+  font-size: 1.25rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.pricing-table td {
+  padding: .75rem 0;
+  font-weight: bold;
+}
+
+.pricing-table > caption {
+  color: var(--yellow);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pricing-table > thead > tr > th {
+  color: var(--gold);
+  font-size: 1.5rem;
+}
+
+.pricing-table .second-col {
+  text-align: center;
+}
+
+
 
 /* mobile */
 @media only screen and (max-width: 1400px){

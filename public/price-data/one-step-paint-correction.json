@@ -1,0 +1,52 @@
+{
+    "title": "1-Step Paint Correction",
+    "notes": null,
+    "prices": [
+        {
+            "text": "Coupes / Sedans",
+            "price": 795
+        },
+        {
+            "text": "Mid Size SUVs / Crossovers",
+            "price": 850
+        },
+        {
+            "text": "Pickups",
+            "price": 995
+        },
+        {
+            "text": "SUVs / Mini Vans",
+            "price": 1200
+        }
+    ],
+    "details": [
+        {
+            "header": "Interior",
+            "bullets": [
+                "Quick vacuum",
+                "Quick interior wipe-down",
+                "Interior windows cleaned streak-free",
+                "Fragrance of choice",
+                "Trunk vacuumed"
+            ]
+        },
+        {
+            "header": "Exterior",
+            "bullets": [
+                "Clay bar",
+                "Iron remover",
+                "Strip foam wash (removes any oils, wax, or polish)",
+                "Deep clean tires / rims / wheel-wells",
+                "1-step (1-pad & 1-polish to remove light swirls & light defects)",
+                "3-month ceramic sealant (upgrade available at additional cost)",
+                "Tire dressing"
+            ]
+        },
+        {
+            "header": "Why get a 1-Step Paint Correction?",
+            "bullets": [
+                "True one-step corrections are a great entry-level option when it comes to paint correction. A one-step can remove all light swirling and minor imperfections on your paint leaving a glossy finish. This will be a true one-step correction with no fillers that mask defects temporarily."
+            ]
+        }
+    ]
+}

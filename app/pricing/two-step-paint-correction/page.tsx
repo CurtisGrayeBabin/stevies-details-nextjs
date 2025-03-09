@@ -2,9 +2,9 @@
 import React from 'react';
 import usePriceData from "@/hooks/usePriceData";
 
-export default function MaintenancePage() {
+export default function TwoStepPage() {
 
-  const data = usePriceData("/price-data/maintenance-detail.json");
+  const data = usePriceData("/price-data/two-step-paint-correction.json");
 
   return (
     <main>

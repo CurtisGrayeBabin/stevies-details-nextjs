@@ -1,0 +1,36 @@
+{
+    "title": "7-Year Ceramic Coating",
+    "notes": null,
+    "alternateFirstColumnTitle": "Option",
+    "prices": [
+        {
+            "text": "1-Step Paint Correction",
+            "price": 1750
+        },
+        {
+            "text": "2-Step Paint Correction",
+            "price": 2150
+        }
+    ],
+    "details": [
+        {
+            "header": null,
+            "bullets": [
+                "Strip foam wash (removes any oils, wax, or polish)",
+                "Deep wheel clean",
+                "Chemical decontamination (iron remover)",
+                "Manual decontamination (clay bar treatment)",
+                "Paint correction (removes swirling, enhances gloss)",
+                "Ceramic coat painted parts of car (no trim, wheel face, glass)"
+            ]
+        },
+        {
+            "header": "Add-ons",
+            "bullets": [
+                "Glass",
+                "Trim",
+                "Rims"
+            ]
+        }
+    ]
+}

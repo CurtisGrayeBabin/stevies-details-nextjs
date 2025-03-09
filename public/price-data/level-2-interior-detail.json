@@ -1,0 +1,61 @@
+{
+    "title": "Level 2 Interior Detail",
+    "notes": null,
+    "prices": [
+        {
+            "text": "Coupes / Sedans",
+            "price": 285
+        },
+        {
+            "text": "Mid Size SUVs / Crossovers",
+            "price": 300
+        },
+        {
+            "text": "Pickups",
+            "price": 335
+        },
+        {
+            "text": "SUVs / Mini Vans",
+            "price": 375
+        }
+    ],
+    "details": [
+        {
+            "header": "Interior",
+            "bullets": [
+                "Deep vacuum (under & alongside seats / hard-to-reach areas)",
+                "Steamed, shampooed, & heated extractor used (seats, carpet, & floor mats)",
+                "Cleaned and conditioned (door panels, center console, dashboard)",
+                "Interior windows cleaned streak-free",
+                "Steam cleaned (eliminates odor / sanitizes / deep cleans)",
+                "Tornador tool - mists cleaning chemicals using compressed air",
+                "Fragrance of choice",
+                "Trunk vacuumed",
+                "Leather care (cleaned, conditioned, and protected with leather serum)"
+            ]
+        },
+        {
+            "header": "Exterior",
+            "bullets": [
+                "Foam wash",
+                "Deep clean of tires, rims, & wheel wells",
+                "Tire dressing",
+                "Exterior windows cleaned streak-free",
+                "Filter warm air blow-dry (no water runs after driving)",
+                "Door jams wiped down",
+                "Finished with detail spray"
+            ]
+        },
+        {
+            "header": "Extra fees / Add-ons",
+            "bullets": [
+                "Mobile detail fee $10",
+                "Leather care (cleaned & conditioned)",
+                "Pet hair",
+                "Headliner",
+                "Glitter / excessive sand",
+                "Odor bomb"
+            ]
+        }
+    ]
+}

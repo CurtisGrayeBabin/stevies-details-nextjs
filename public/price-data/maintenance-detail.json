@@ -1,0 +1,59 @@
+{
+    "title": "Maintenance Detail",
+    "notes": "For maintenance clients only on a weekly or biweekly schedule. Not for first-time clients.",
+    "prices": [
+        {
+            "text": "Coupes / Sedans",
+            "price": 85
+        },
+        {
+            "text": "Mid Size SUVs / Crossovers",
+            "price": 95
+        },
+        {
+            "text": "Pickups",
+            "price": 115
+        },
+        {
+            "text": "SUVs / Mini Vans",
+            "price": 125
+        }
+    ],
+    "details": [
+        {
+            "header": "Interior",
+            "bullets": [
+                "Thorough vacuum",
+                "Panels, dash, and center console thoroughly cleaned",
+                "Interior windows cleaned streak-free",
+                "Tornador tool - mists cleaning chemicals using compressed air",
+                "Light spot stains addressed",
+                "Fragrance of choice",
+                "Trunk vacuumed"
+            ]
+        },
+        {
+            "header": "Exterior",
+            "bullets": [
+                "Ceramic soap foam wash",
+                "Two-bucket method wash (safest wash method)",
+                "Deep clean of tires, rims, & wheel wells",
+                "Tire dressing",
+                "Exterior windows cleaned streak-free",
+                "High-end towel dry with lubricant (drying aid)",
+                "Filter warm air blow-dry (no water runs after driving)",
+                "Door jams wiped down",
+                "Finished with ceramic detail spray (quality protection between washes)"
+            ]
+        },
+        {
+            "header": "Extra fees / Add-ons",
+            "bullets": [
+                "Pet hair",
+                "Glitter / excessive sand",
+                "Odor bomb",
+                "Lifted vehicles"
+            ]
+        }
+    ]
+}

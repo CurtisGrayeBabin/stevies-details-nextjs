@@ -3,18 +3,13 @@ import React from 'react';
 
 export default function AboutPage() {
 
-    /*
-    const pageTitle = "About";
-    const contentDescription = "About Stevie's Details";
-    const canonicalLink = "https://steviesdetails.com/about";
-    */
 
     return (
       <>
       
         <h1 className="white-text">About Us</h1>
         
-        <p>At Stevie's Details, we're more than just a mobile detailing service; we're a symbol of <span className="gold-text">excellence</span> in vehicle care. As proud members of the <u>International Detailers Association</u> (IDA), we bring a wealth of <span className="gold-text">experience</span> and <span className="gold-text">expertise</span> to every detailing project.</p>
+        <p>At Stevie's Details, we're more than just a mobile detailing service; we're a symbol of <span className="gold-text">excellence</span> in vehicle care. As proud members of the <a href="https://the-ida.com/" target="_" rel="nofollow,noreferrer" aria-label="IDA link opens in a new tab">International Detailers Association</a> (IDA), we bring a wealth of <span className="gold-text">experience</span> and <span className="gold-text">expertise</span> to every detailing project.</p>
   
         <h2>Our Story</h2>
   
@@ -37,7 +32,7 @@ export default function AboutPage() {
   
         <p>We invite you to experience the difference with Stevie's Details. Whether you drive a <span className="gold-text">daily</span> commuter or a <span className="gold-text">luxury</span> vehicle, we're here to <span className="gold-text">elevate</span> your car care experience. Contact us today to schedule your next detailing appointment and discover what makes us the go-to choice for <span className="gold-text">quality</span> automotive car <span className="gold-text">detailing</span>.</p>
   
-        <p>For more information about our IDA certification, you can visit the <span className="gold-text"><u>International Detailers Association</u></span> (IDA) website <a href="https://the-ida.com/" target="_" rel="nofollow,noreferrer">here.</a></p>
+        <p>For more information about our IDA certification, you can visit the <span className="gold-text"><u>International Detailers Association</u></span> (IDA) website <a href="https://the-ida.com/" target="_" rel="nofollow,noreferrer" aria-label="IDA link opens in a new tab">here.</a></p>
   
       </>
     );

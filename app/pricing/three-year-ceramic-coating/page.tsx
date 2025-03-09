@@ -2,9 +2,9 @@
 import React from 'react';
 import usePriceData from "@/hooks/usePriceData";
 
-export default function MaintenancePage() {
+export default function ThreeYearPage() {
 
-  const data = usePriceData("/price-data/maintenance-detail.json");
+  const data = usePriceData("/price-data/three-year-ceramic-coating.json");
 
   return (
     <main>

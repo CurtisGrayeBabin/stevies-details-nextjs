@@ -1,0 +1,53 @@
+{
+    "title": "2-Step Paint Correction",
+    "notes": null,
+    "prices": [
+        {
+            "text": "Coupes / Sedans",
+            "price": 1250
+        },
+        {
+            "text": "Mid Size SUVs / Crossovers",
+            "price": 1395
+        },
+        {
+            "text": "Pickups",
+            "price": 1500
+        },
+        {
+            "text": "SUVs / Mini Vans",
+            "price": 1750
+        }
+    ],
+    "details": [
+        {
+            "header": "Interior",
+            "bullets": [
+                "Quick vacuum",
+                "Quick interior wipe-down",
+                "Interior windows cleaned streak-free",
+                "Fragrance of choice",
+                "Trunk vacuumed"
+            ]
+        },
+        {
+            "header": "Exterior",
+            "bullets": [
+                "Strip foam wash (removes any oils, wax, or polish)",
+                "Clay bar",
+                "Iron remover",
+                "Deep clean tires / rims / wheel-wells",
+                "2-step correction (compound & polish)",
+                "3-month ceramic sealant",
+                "Tire dressing",
+                "Windows cleaned streak-free"
+            ]
+        },
+        {
+            "header": "Why get a 2-Step Paint Correction?",
+            "bullets": [
+                "Stage 2 paint correction is suited for cars that have moderate to heavy swirl marks and light scratches and involves using 2 or more different compounds / polishes and pad combinations; the first step is a cutting by using compound to remove / reduce imperfections such as swirl marks, light to moderate scratches and other paint defects like marring which appear like towel marks."
+            ]
+        }
+    ]
+}

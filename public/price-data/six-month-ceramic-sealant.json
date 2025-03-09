@@ -1,0 +1,54 @@
+{
+    "title": "6-Month Ceramic Sealant",
+    "notes": null,
+    "prices": [
+        {
+            "text": "Coupes / Sedans",
+            "price": 250
+        },
+        {
+            "text": "Mid Size SUVs / Crossovers",
+            "price": 275
+        },
+        {
+            "text": "Pickups",
+            "price": 300
+        },
+        {
+            "text": "SUVs / Mini Vans",
+            "price": 335
+        }
+    ],
+    "details": [
+        {
+            "header": "Interior",
+            "bullets": [
+                "Quick vacuum",
+                "Quick interior wipe-down",
+                "Interior windows cleaned streak-free",
+                "Fragrance of choice",
+                "Trunk vacuumed"
+            ]
+        },
+        {
+            "header": "Exterior",
+            "bullets": [
+                "Strip foam wash (removes any oils, wax, or polish)",
+                "Clay bar",
+                "Iron remover",
+                "6-month ceramic sealant (2X stronger than wax)",
+                "Deep clean tires / rims / wheel-wells",
+                "Quality tire dressing",
+                "Windows cleaned streak-free",
+                "Finished with boost ceramic detail spray",
+                "Interior vacuum & wipe-down"
+            ]
+        },
+        {
+            "header": "Why get a clay & seal treatment?",
+            "bullets": [
+                "It's recommended to get your car clayed several times throughout the year to help remove bonded contaminants from your paint. Allowing the vehicle's surface to be smooth and also allowing the sealant to have a proper bond with the paint, but most importantly will remove harsh contamination that deteriorates your paint over time. With the ceramic sealant, you get an extremely hydrophobic surface while leaving your paint looking glossier than ever."
+            ]
+        }
+    ]
+}
