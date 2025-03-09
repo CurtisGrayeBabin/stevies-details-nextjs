@@ -36,6 +36,7 @@ const BookButton = () => {
             id="homepage-pricing-button" 
             className="button-appearance transition"
             onClick={handleClick}
+            aria-label="Book us - will open email client or sms client to contact us for booking your detail"
         >Book Us</button>
     );
 };
