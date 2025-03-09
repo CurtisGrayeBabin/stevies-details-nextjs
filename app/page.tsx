@@ -1,6 +1,13 @@
 import Image from "next/image";
+import { MouseEventHandler } from "react";
+import BookButton from "@/components/BookButton";
 
 export default function Home() {
+
+  const handleBookButtonClick: MouseEventHandler<HTMLButtonElement> = (event) => {
+    console.log("Button clicked!", event);
+  };
+
   return (
     <main>
       <div className="logo-container">
@@ -14,7 +21,7 @@ export default function Home() {
 
           <h2>Established 2019.</h2>
 
-          <button id="homepage-pricing-button" className="button-appearance transition">Book Us</button>
+          <BookButton />
 
           <h3>See the details for yourself:</h3>
           <div className="social-media-container">
