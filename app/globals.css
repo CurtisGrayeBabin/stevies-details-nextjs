@@ -233,7 +233,7 @@ nav h1:hover {
 
 .pricing-table > caption {
   color: var(--yellow);
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
 }
 
