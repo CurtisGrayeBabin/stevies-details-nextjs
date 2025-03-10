@@ -6,18 +6,16 @@ const BookButton = () => {
 
     const isWithinRestrictedHours = (): boolean => {
         const now = new Date();
-        const pstOffset = 8 * 60; // PST is UTC-8
-        const pdtOffset = 7 * 60; // PDT (Daylight Saving Time) is UTC-7
-        
-        // Check if daylight saving time is in effect
-        const isDST = new Date().toLocaleTimeString("en-US", { timeZone: "America/Los_Angeles", hour12: false }).includes("PDT");
-        const offset = isDST ? pdtOffset : pstOffset;
-        
-        // Convert UTC time to PST/PDT
-        const pstTime = new Date(now.getTime() - offset * 60 * 1000);
-        const hours = pstTime.getUTCHours(); // Get the hour in PST
-        
-        return hours >= 17 || hours < 8; // Between 5 PM and 8 AM
+
+        // Convert current time to Pacific Time (handles both PST & PDT automatically)
+        const pstTime = now.toLocaleString("en-US", {
+          timeZone: "America/Los_Angeles",
+          hour12: false,
+          hour: "2-digit",
+        });
+      
+        const hours = parseInt(pstTime, 10);
+        return hours >= 17 || hours < 8; // 5 PM - 8 AM PST/PDT
     };
       
 
