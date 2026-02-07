@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Stevie's Details LLC",
-  description: "Premium automotive details servicing Orange County, California!",
+  description: "Premium automotive details servicing Orange County, California!"
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en">    
       <body>
         <div id="__next">
 

@@ -4,19 +4,19 @@
     "prices": [
         {
             "text": "Coupes / Sedans",
-            "price": 235
+            "price": 275
         },
         {
             "text": "Mid Size SUVs / Crossovers",
-            "price": 265
+            "price": 300
         },
         {
             "text": "Pickups",
-            "price": 285
+            "price": 335
         },
         {
             "text": "SUVs / Mini Vans",
-            "price": 300
+            "price": 365
         }
     ],
     "details": [
@@ -30,18 +30,6 @@
                 "Tornador tool - mists cleaning chemicals using compressed air",
                 "Fragrance of choice",
                 "Trunk vacuumed"
-            ]
-        },
-        {
-            "header": "Exterior",
-            "bullets": [
-                "Foam wash",
-                "Deep clean of tires, rims, & wheel wells",
-                "Tire dressing",
-                "Exterior windows cleaned streak-free",
-                "Filter warm air blow-dry (no water runs after driving)",
-                "Door jams wiped down",
-                "Finished with detail spray"
             ]
         },
         {

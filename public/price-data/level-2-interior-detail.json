@@ -4,19 +4,19 @@
     "prices": [
         {
             "text": "Coupes / Sedans",
-            "price": 285
+            "price": 350
         },
         {
             "text": "Mid Size SUVs / Crossovers",
-            "price": 300
+            "price": 375
         },
         {
             "text": "Pickups",
-            "price": 335
+            "price": 395
         },
         {
             "text": "SUVs / Mini Vans",
-            "price": 375
+            "price": 435
         }
     ],
     "details": [
@@ -32,18 +32,6 @@
                 "Fragrance of choice",
                 "Trunk vacuumed",
                 "Leather care (cleaned, conditioned, and protected with leather serum)"
-            ]
-        },
-        {
-            "header": "Exterior",
-            "bullets": [
-                "Foam wash",
-                "Deep clean of tires, rims, & wheel wells",
-                "Tire dressing",
-                "Exterior windows cleaned streak-free",
-                "Filter warm air blow-dry (no water runs after driving)",
-                "Door jams wiped down",
-                "Finished with detail spray"
             ]
         },
         {
